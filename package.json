@@ -1,0 +1,30 @@
+{
+  "name": "hash-lock",
+  "version": "1.0.0",
+  "description": "Find dependency trees by hash",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dependency", "tree", "hash", "lockfile", "npm"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "semver": "^7.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "@types/semver": "^7.7.1",
+    "typescript": "^5.9.3"
+  }
+}
