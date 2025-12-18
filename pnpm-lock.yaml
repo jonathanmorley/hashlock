@@ -13,13 +13,13 @@ importers:
         version: 7.7.3
     devDependencies:
       '@types/node':
-        specifier: ^24.9.2
+        specifier: 24.10.4
         version: 24.10.4
       '@types/semver':
-        specifier: ^7.7.1
+        specifier: 7.7.1
         version: 7.7.1
       typescript:
-        specifier: ^5.9.3
+        specifier: 5.9.3
         version: 5.9.3
 
 packages:
