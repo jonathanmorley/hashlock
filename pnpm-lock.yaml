@@ -10,7 +10,7 @@ importers:
     dependencies:
       semver:
         specifier: ^7.7.3
-        version: 7.7.3
+        version: 7.7.4
     devDependencies:
       '@types/node':
         specifier: 24.10.11
@@ -30,8 +30,8 @@ packages:
   '@types/semver@7.7.1':
     resolution: {integrity: sha512-FmgJfu+MOcQ370SD0ev7EI8TlCAfKYU+B4m5T3yXc1CiRN94g/SZPtsCkk506aUDtlMnFZvasDwHHUcZUEaYuA==}
 
-  semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -51,7 +51,7 @@ snapshots:
 
   '@types/semver@7.7.1': {}
 
-  semver@7.7.3: {}
+  semver@7.7.4: {}
 
   typescript@5.9.3: {}
 
