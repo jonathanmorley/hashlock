@@ -13,8 +13,8 @@ importers:
         version: 7.8.5
     devDependencies:
       '@types/node':
-        specifier: 26.5.1
-        version: 26.5.1
+        specifier: 26.6.0
+        version: 26.6.0
       '@types/semver':
         specifier: 7.8.0
         version: 7.8.0
@@ -24,8 +24,8 @@ importers:
 
 packages:
 
-  '@types/node@26.5.1':
-    resolution: {integrity: sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g==}
+  '@types/node@26.6.0':
+    resolution: {integrity: sha512-FWWQhDlKSnEJVe+CTJCQL8Fol7s1MKo3Ud0fjryxoOoH+hwMIPxol0MguYrLi2I0VvIFwOU2DwdWET2+px15qg==}
 
   '@types/semver@7.8.0':
     resolution: {integrity: sha512-1mAINjtQCXXeLkJ9ehXkwOcBpqtLxiVtKhpUf83DdRNdQKV0iXZpaHYqRr7nj+wvxuJzoAmAwXI+sCNMv1CzLQ==}
@@ -45,7 +45,7 @@ packages:
 
 snapshots:
 
-  '@types/node@26.5.1':
+  '@types/node@26.6.0':
     dependencies:
       undici-types: 8.9.0
 
